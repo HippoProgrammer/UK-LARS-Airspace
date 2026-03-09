@@ -1,125 +1,21 @@
 *VERSION: 2.1
 *WRITTEN_BY: HippoProgrammer
-AC F
-AN Lossiemouth LARS
-AH 9500ft FL
-AL 0ft FL
-V X=57:42.18N 3:20.21W
-DC 40.0
+*DOC_VERSION: v0.0.2
 
 AC F
-AN Leuchars LARS
-AH 9500ft FL
-AL 0ft FL
-V X=56:22.22N 2:52.07W
-DC 40.0
-
-AC F
-AN Newcastle LARS
-AH 9500ft FL
-AL 0ft FL
-V X=55:02.17N 1:41.23W
-DC 40.0
-
-AC F
-AN Teesside LARS
-AH 9500ft FL
-AL 0ft FL
-V X=54:30.33N 1:25.46W
-DC 40.0
-
-AC F
-AN Leeming LARS
-AH 9500ft FL
-AL 0ft FL
-V X=54:17.33N 1:32.07W
-DC 40.0
-
-AC F
-AN Warton LARS
-AH 9500ft FL
-AL 0ft FL
-V X=53:44.42N 2:53.00W
-DC 40.0
-
-AC F
-AN Valley LARS
-AH 9500ft FL
-AL 0ft FL
-V X=53:14.53N 4:32.07W
-DC 40.0
-
-AC F
-AN Shawbury LARS
-AH 9500ft FL
-AL 0ft FL
-V X=52:47.37N 2:40.05W
-DC 40.0
-
-AC F
-AN East Midlands LARS
-AH 9500ft FL
-AL 0ft FL
-V X=52:49.52N 1:19.40W
-DC 30.0
-
-AC F
-AN Humberside LARS
-AH 9500ft FL
-AL 0ft FL
-V X=53:34.24N 0:21.05W
-DC 30.0
-
-AC F
-AN Waddington LARS
-AH 9500ft FL
-AL 0ft FL
-V X=53:09.58N 0:31.26W
-DC 30.0
-
-AC F
-AN Coningsby LARS
-AH 9500ft FL
-AL 0ft FL
-V X=53:05.35N 0:09.58W
-DC 30.0
-
-AC F
-AN Marham LARS
-AH 9500ft FL
-AL 0ft FL
-V X=52:38.54N 0:33.02E
-DC 30.0
-
-AC F
-AN Norwich LARS
-AH 9500ft FL
-AL 0ft FL
-V X=52:40.33N 1:16.58E
-DC 32.5
-
-AC F
-AN Brize Norton LARS
-AH 9500ft FL
-AL 0ft FL
-V X=51:44.60N 1:34.59W
-DC 40.0
-
-AC F
-AN Southend LARS
-AH 9500ft FL
-AL 0ft FL
-V X=51:34.13N 0:41.36E
-DC 25.0
-
-AC F
+AY TIZ
+AF 126.705
+AG Boscombe Zone
 AN Boscombe Down LARS
 AH 9500ft FL
 AL 0ft FL
 V X=51:09.12N 1:45.04W
-DC 40.0
+DC 30.0
 
 AC F
+AY TIZ
+AF 119.480
+AG Bournemouth Radar
 AN Bournemouth LARS
 AH 9500ft FL
 AL 0ft FL
@@ -127,41 +23,69 @@ V X=50:46.48N 1:50.33W
 DC 30.0
 
 AC F
-AN CaFiff LARS
+AY TIZ
+AF 124.280
+AG Brize Radar
+AN Brize Norton LARS
 AH 9500ft FL
 AL 0ft FL
-V X=51:23.48N 3:20.26W
+V X=51:45.00N 1:34.59W
 DC 40.0
 
 AC F
-AN Yeovilton LARS
+AY TIZ
+AF 119.155
+AG Cardiff Approach
+AN Cardiff LARS
 AH 9500ft FL
 AL 0ft FL
-V X=51:00.30N 2:38.44W
+V X=51:23.48N 3:20.36W
 DC 40.0
 
 AC F
-AN Exeter LARS
+AY TIZ
+AF 119.205
+AG Coningsby Approach
+AN Coningsby LARS
 AH 9500ft FL
 AL 0ft FL
-V X=50:44.03N 3:24.50W
-DC 40.0
+V X=53:05.35N 0:09.58W
+DC 30.0
 
 AC F
-AN Newquay LARS
-AH 9500ft FL
-AL 0ft FL
-V X=50:26.27N 4:59.43W
-DC 60.0
-
-AC F
+AY TIZ
+AF 134.055
+AG Culdrose Approach
 AN Culdrose LARS
 AH 9500ft FL
 AL 0ft FL
 V X=50:05.07N 5:15.15W
-DC 40.0
+DC 30.0
 
 AC F
+AY TIZ
+AF 134.180
+AG East Midlands Radar
+AN East Midlands LARS
+AH 9500ft FL
+AL 0ft FL
+V X=52:49.52N 1:19.40W
+DC 30.0
+
+AC F
+AY TIZ
+AF 128.980
+AG Exeter Radar
+AN Exeter LARS
+AH 9500ft FL
+AL 0ft FL
+V X=50:44.04N 3:24.50W
+DC 30.0
+
+AC F
+AY TIZ
+AF 125.250
+AG Farnborough Radar
 AN Farnborough West LARS
 AH 9500ft FL
 AL 0ft FL
@@ -186,6 +110,9 @@ DB 50:49.57N 001:08.37W, 51:44.01N 001:05.41W
 DP 51:44.01N 001:05.41W
 
 AC F
+AY TIZ
+AF 123.225
+AG Farnborough Radar
 AN Farnborough East LARS
 AH 9500ft FL
 AL 0ft FL
@@ -209,6 +136,9 @@ DP 51:18.33N 000:25.31E
 DP 51:18.14N 000:35.50E
 
 AC F
+AY TIZ
+AF 132.800
+AG Farnborough Radar
 AN Farnborough North LARS
 AH 9500ft FL
 AL 0ft FL
@@ -231,6 +161,157 @@ DB 51:44.01N 001:05.41W, 51:45.50N 000:56.38W
 DP 51:45.50N 000:56.38W
 DP 51:54.11N 000:44.52W
 DP 52:07.42N 000:18.25W
+
+AC F
+AY TIZ
+AF 119.130
+AG Humberside Radar
+AN Humberside LARS
+AH 9500ft FL
+AL 0ft FL
+V X=53:34.28N 0:21.03W
+DC 30.0
+
+AC F
+AY TIZ
+AF 133.380
+AG Leeming Zone
+AN Leeming LARS
+AH 9500ft FL
+AL 0ft FL
+V X=54:17.33N 1:32.07W
+DC 30.0
+
+AC F
+AY TIZ
+AF 126.505
+AG Leuchars Zone
+AN Leuchars LARS
+AH 9500ft FL
+AL 0ft FL
+V X=56:22.30N 2:51.32W
+DC 40.0
+
+AC F
+AY TIZ
+AF 119.575
+AG Lossie Departures
+AN Lossiemouth LARS
+AH 9500ft FL
+AL 0ft FL
+V X=57:42.24N 3:20.16W
+DC 40.0
+
+AC F
+AY TIZ
+AF 124.155
+AG Marham Zone
+AN Marham LARS
+AH 9500ft FL
+AL 0ft FL
+V X=52:38.54N 0:33.02E
+DC 30.0
+
+AC F
+AY TIZ
+AF 124.380
+AG Newcastle Radar
+AN Newcastle LARS
+AH 9500ft FL
+AL 0ft FL
+V X=55:02.17N 1:41.23W
+DC 40.0
+
+AC F
+AY TIZ
+AF 133.405
+AG Newquay Approach
+AN Newquay LARS
+AH 9500ft FL
+AL 0ft FL
+V X=50:26.27N 4:59.43W
+DC 60.0
+
+AC F
+AY TIZ
+AF 119.355
+AG Norwich Radar
+AN Norwich LARS
+AH 9500ft FL
+AL 0ft FL
+V X=52:40.33N 1:16.58E
+DC 30.0
+
+AC F
+AY TIZ
+AF 133.155
+AG Shawbury Zone
+AN Shawbury LARS
+AH 9500ft FL
+AL 0ft FL
+V X=52:47.37N 2:40.05W
+DC 40.0
+
+AC F
+AY TIZ
+AF 130.780
+AG Southend Radar
+AN Southend LARS
+AH 9500ft FL
+AL 0ft FL
+V X=51:34.17N 0:41.44E
+DC 25.0
+
+AC F
+AY TIZ
+AF 118.855
+AG Teesside Radar
+AN Teesside LARS
+AH 9500ft FL
+AL 0ft FL
+V X=54:30.33N 1:25.46W
+DC 40.0
+
+AC F
+AY TIZ
+AF 125.230
+AG Valley Radar
+AN Valley LARS
+AH 9500ft FL
+AL 0ft FL
+V X=53:14.50N 4:32.01W
+DC 40.0
+
+AC F
+AY TIZ
+AF 119.505
+AG Waddington Zone
+AN Waddington LARS
+AH 9500ft FL
+AL 0ft FL
+V X=53:09.58N 0:31.26W
+DC 30.0
+
+AC F
+AY TIZ
+AF 126.505
+AG Warton Radar
+AN Warton LARS
+AH 9500ft FL
+AL 0ft FL
+V X=53:44.42N 2:53.00W
+DC 40.0
+
+AC F
+AY TIZ
+AF 127.355
+AG Yeovil Radar
+AN Yeovilton LARS
+AH 9500ft FL
+AL 0ft FL
+V X=51:00.30N 2:38.44W
+DC 30.0
+
 
 
 
